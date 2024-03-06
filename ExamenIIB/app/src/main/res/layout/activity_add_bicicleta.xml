@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Spinner
+        android:id="@+id/spinnerBicicletas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editTextNombreBicicleta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Marca de la Bicicleta" />
+
+    <EditText
+        android:id="@+id/editTextModeloBicicleta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Modelo de la Bicicleta" />
+
+    <EditText
+        android:id="@+id/editTextPrecioBicicleta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Precio de la Bicicleta"
+        android:inputType="numberDecimal" />
+
+    <CheckBox
+        android:id="@+id/checkBoxNueva"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Es Nueva?" />
+
+    <Button
+        android:id="@+id/buttonAgregarBicicleta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agregar Bicicleta" />
+</LinearLayout>

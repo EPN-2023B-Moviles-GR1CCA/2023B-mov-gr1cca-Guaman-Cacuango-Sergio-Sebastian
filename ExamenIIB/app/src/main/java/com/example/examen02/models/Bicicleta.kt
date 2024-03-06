@@ -1,5 +1,7 @@
 package com.example.examen01
 
+import com.example.examen02.models.AccesorioBicicleta
+
 class Bicicleta(
     var id: Int,
     var marca: String,

@@ -1,4 +1,4 @@
-package com.example.examen01
+package com.example.examen02.models
 
 class AccesorioBicicleta(
     var id: Int,
